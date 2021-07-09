@@ -15,5 +15,7 @@ public class DemoTest1 {
         System.out.println("！！！！！！！！！");
         System.out.println("!!!!!!!!！！！！！");
         System.out.println("!!!!!!!！！！！！");
+        System.out.println("!!!!范德萨发生！！！");
+        System.out.println("!!!防守打法是！！！！");
     }
 }
