@@ -12,5 +12,8 @@ public class DemoTest1 {
         System.out.println("Hello！！！！！");
         System.out.println("Hello！！！！！");
         System.out.println("Hello！！！！！");
+        System.out.println("！！！！！！！！！");
+        System.out.println("!!!!!!!!！！！！！");
+        System.out.println("!!!!!!!！！！！！");
     }
 }
