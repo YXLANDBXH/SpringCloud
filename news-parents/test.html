@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+<body>
+  <button id="btn">我是按钮</button>
+  <input type="checkbox" id="check">复选框
+</body>
+<script>
+    window.onload = function () {
+        document.getElementById("btn").onclick = function (e) {
+            console.log(e);
+            console.log(e.target.innerHTML);
+            console.log(e.target.id);
+        }
+        document.getElementById("check").onclick = function (e) {
+            // console.log(e);
+            if (e.target.checked){
+                console.log("当前被选中。。");
+            }else {
+                console.log("当前没有被选中。。");
+            }
+        }
+
+    }
+</script>
+</html>

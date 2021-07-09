@@ -1,0 +1,26 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>新闻列表</title>
+</head>
+<body>
+
+<form action="" method="post">
+	新闻分类：<select name="category">
+				<option th:each="category:${categoryList}"
+						th:value="${category.id}"
+						th:text="${category.cname}"></option>
+	        </select>
+</form>
+
+<table width="90%" border="1px">
+	<tr th:each="news:${newsList}">
+		<td th:text="${news.id}"></td>
+		<td th:text="${news.title}"></td>
+		<td th:text="${news.summary}"></td>
+		<td th:text="${news.author}"></td>
+		<td th:text="${news.createdate}"></td>
+	</tr>
+</table>
+</body>
+</html>
